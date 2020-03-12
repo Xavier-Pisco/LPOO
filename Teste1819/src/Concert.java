@@ -6,6 +6,16 @@ public class Concert {
     private String city, country, date;
     private List<Act> acts;
 
+    public int getTicketno() {
+        return ticketno;
+    }
+
+    public void setTicketno(int ticketno) {
+        this.ticketno = ticketno;
+    }
+
+    private int ticketno = 1;
+
     public Concert(String ci, String co, String d){
         city = ci;
         country = co;
@@ -31,6 +41,21 @@ public class Concert {
 
     public String getDate() {
         return date;
+    }
+
+    public boolean isValid(Ticket ticket){
+        return (ticket.getConcert() == this);
+    }
+
+    public boolean participates(Act act){
+        for (Act a: acts){
+            if (a.getClass() == Band.class){
+                Band b = (Band) a;
+                if (b.containsArtist((Artist)act)) return true;
+            }
+            else if (a.equals(act)) return true;
+        }
+        return false;
     }
 
     @Override

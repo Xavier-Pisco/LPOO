@@ -19,4 +19,15 @@ public class Artist extends Act {
     public void setCountry(String country) {
         this.country = country;
     }
+
+    @Override
+    public boolean equals(Object o){
+        if (this == o) return true;
+        if (o == null) return false;
+        if (this.getClass() != o.getClass()) return false;
+
+        Artist a = (Artist) o;
+
+        return (this.name.equals(a.name) && this.country.equals(a.country));
+    }
 }
