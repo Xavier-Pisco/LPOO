@@ -1,0 +1,21 @@
+package com.aor.numbers;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListFilterer {
+    private List<Integer> list;
+
+    public ListFilterer(List<Integer> list) {
+        this.list = list;
+    }
+
+    public List<Integer> filter(IListFilter filter) {
+        List<Integer> res = new ArrayList<>();
+        for (int i : list) {
+            if (filter.accept(i)) res.add(i);
+        }
+        return res;
+    }
+}
+
