@@ -17,9 +17,4 @@ public class Client {
     public String getPhone() {
         return phone;
     }
-
-    @Override
-    public boolean login(String username, String password) {
-        return false;
-    }
 }
