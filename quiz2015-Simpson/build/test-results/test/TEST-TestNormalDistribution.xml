@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestNormalDistribution" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-06-08T17:37:28" hostname="xavier-Aspire-VX5-591G" time="0.003">
+  <properties/>
+  <testcase name="testProbabilityDistribution" classname="TestNormalDistribution" time="0.001"/>
+  <testcase name="testInvallidStddev" classname="TestNormalDistribution" time="0.0"/>
+  <testcase name="testProbabilityDensityFunction" classname="TestNormalDistribution" time="0.0"/>
+  <testcase name="testConstructor" classname="TestNormalDistribution" time="0.0"/>
+  <testcase name="testDefaultConstructor" classname="TestNormalDistribution" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
