@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Artist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Attendee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Party.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Speaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/lib/hamcrest-core-1.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/lib/junit-4.12.jar" beforeDir="false" />
@@ -19,9 +13,9 @@
       <change beforePath="$PROJECT_DIR$/../Teste1819/src/InvalidTicket.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/src/TestCases.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/src/Ticket.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/quiz.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Attendee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Attendee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Speaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Speaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,10 +179,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2688" y="272" width="553" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1591611754744">
+    <state x="2688" y="272" width="553" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1591612242126">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2688" y="272" width="553" height="560" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591611754744" />
+    <state x="2688" y="272" width="553" height="560" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612242126" />
     <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1591611801519">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

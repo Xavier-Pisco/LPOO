@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Attendee extends Person implements Comparable<Person> {
+public class Attendee extends Person {
     private boolean paid = false;
 
     public Attendee(String name) {
@@ -18,11 +18,5 @@ public class Attendee extends Person implements Comparable<Person> {
 
     public boolean hasPaid(){
         return paid;
-    }
-
-    @Override
-    public int compareTo(Person person) {
-        return this.getName().compareTo(person.getName());
-
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public abstract class Person extends User{
+public abstract class Person extends User implements Comparable<Person>{
     private String name;
     private int age = 0;
 
@@ -45,5 +45,10 @@ public abstract class Person extends User{
     @Override
     public int hashCode() {
         return Objects.hash(name);
+    }
+
+    @Override
+    public int compareTo(Person person) {
+        return this.getName().compareTo(person.getName());
     }
 }

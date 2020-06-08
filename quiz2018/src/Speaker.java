@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Speaker extends Person implements Comparable<Person> {
+public class Speaker extends Person{
     private int fee = 0;
 
     public Speaker(String name, int age) {
@@ -22,10 +22,5 @@ public class Speaker extends Person implements Comparable<Person> {
 
     public void setFee(int fee) {
         this.fee = fee;
-    }
-
-    @Override
-    public int compareTo(Person person) {
-        return this.getName().compareTo(person.getName());
     }
 }
