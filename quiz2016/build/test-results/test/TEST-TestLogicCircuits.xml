@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestLogicCircuits" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-06-08T17:01:47" hostname="xavier-Aspire-VX5-591G" time="0.04">
+  <properties/>
+  <testcase name="testSymbols" classname="TestLogicCircuits" time="0.002"/>
+  <testcase name="testLogicVariable" classname="TestLogicCircuits" time="0.0"/>
+  <testcase name="testColision" classname="TestLogicCircuits" time="0.001"/>
+  <testcase name="testCombinatorialCircuit" classname="TestLogicCircuits" time="0.0"/>
+  <testcase name="testFormulas" classname="TestLogicCircuits" time="0.034"/>
+  <testcase name="testCycles" classname="TestLogicCircuits" time="0.001"/>
+  <testcase name="testEquals" classname="TestLogicCircuits" time="0.0"/>
+  <testcase name="testLogicGates" classname="TestLogicCircuits" time="0.0"/>
+  <testcase name="testValues" classname="TestLogicCircuits" time="0.001"/>
+  <testcase name="testCalculatedBy" classname="TestLogicCircuits" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
