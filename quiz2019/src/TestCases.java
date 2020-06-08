@@ -225,7 +225,7 @@ public class TestCases {
     }
 
 
-/*
+
     @Test
     public void testBoxOffice() throws InvalidTicket {
         Act bob = new Artist("Bob Dylan", "USA");
@@ -257,6 +257,6 @@ public class TestCases {
         assertEquals(tickets2.get(0).getConcert(), concertParis);
         assertEquals(tickets3.get(0).getConcert(), concertLondon);
     }
-*/
+
 
 }
