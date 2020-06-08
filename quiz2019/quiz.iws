@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b435420-c662-432d-9308-eb90bd7ac2cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Act.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Band.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Concert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InvalidTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ticket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/lib/hamcrest-core-1.3.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/lib/junit-4.12.jar" beforeDir="false" />
@@ -13,6 +19,7 @@
       <change beforePath="$PROJECT_DIR$/../Teste1819/src/InvalidTicket.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/src/TestCases.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Teste1819/src/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../quiz2018/quiz.iws" beforeDir="false" afterPath="$PROJECT_DIR$/../quiz2018/quiz.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +46,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="20" />
-    <option name="width" value="1920" />
-    <option name="height" value="1060" />
-  </component>
-  <component name="ProjectId" id="1d22JWelDlosEZO3AOIogc9Xo4x" />
+  <component name="ProjectId" id="1d29X8e2Kjncy1J7THhd5DKtCdp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,7 +58,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553520726322" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quiz2019" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -66,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCases">
+  <component name="RunManager" selected="JUnit.TestCases.testParticipates">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -83,44 +85,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testAudience" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testBandArtists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quiz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testAudience" />
+      <option name="METHOD_NAME" value="testBandArtists" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testNoDuplicatePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testContains" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quiz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testNoDuplicatePerson" />
+      <option name="METHOD_NAME" value="testContains" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testInvalidTicket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quiz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testParty" />
+      <option name="METHOD_NAME" value="testInvalidTicket" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCases.testUsernames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCases.testParticipates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="quiz" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestCases" />
-      <option name="METHOD_NAME" value="testUsernames" />
+      <option name="METHOD_NAME" value="testParticipates" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCases.testParticipates" />
+        <item itemvalue="JUnit.TestCases.testContains" />
         <item itemvalue="JUnit.TestCases" />
-        <item itemvalue="JUnit.TestCases.testUsernames" />
-        <item itemvalue="JUnit.TestCases.testParty" />
-        <item itemvalue="JUnit.TestCases.testNoDuplicatePerson" />
-        <item itemvalue="JUnit.TestCases.testAudience" />
+        <item itemvalue="JUnit.TestCases.testBandArtists" />
+        <item itemvalue="JUnit.TestCases.testInvalidTicket" />
       </list>
     </recent_temporary>
   </component>
@@ -176,34 +178,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2688" y="272" width="553" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1591612242126">
+    <state x="2688" y="272" width="374" height="560" key="#com.intellij.ide.util.MemberChooser" timestamp="1591613554499">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2688" y="272" width="553" height="560" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612242126" />
-    <state x="2663" y="311" width="424" height="482" key="FileChooserDialogImpl" timestamp="1591612356061">
+    <state x="2688" y="272" width="374" height="560" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591613554499" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1591613600327">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2663" y="311" width="424" height="482" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612356061" />
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1591612356963">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591613600327" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1591613600327">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612356963" />
-    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1591612356963">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591613600327" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1591613600327">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612356963" />
-    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1591612356963">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591613600327" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1591613600327">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612356963" />
-    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1591612356963">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1874" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591612356963" />
-    <state x="2543" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1591609914589">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2543" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591609914589" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1591613600327" />
   </component>
   <component name="masterDetails">
     <states>
