@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCases" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-06-09T09:05:50" hostname="xavier-Aspire-VX5-591G" time="0.047">
+  <properties/>
+  <testcase name="testDuplicateRooms" classname="TestCases" time="0.001"/>
+  <testcase name="testRoom" classname="TestCases" time="0.017"/>
+  <testcase name="testUser" classname="TestCases" time="0.0"/>
+  <testcase name="testToString" classname="TestCases" time="0.025"/>
+  <testcase name="testBuilding" classname="TestCases" time="0.0"/>
+  <testcase name="testBuildingArgs" classname="TestCases" time="0.001"/>
+  <testcase name="testUserAccess" classname="TestCases" time="0.0"/>
+  <testcase name="testRoomArgs" classname="TestCases" time="0.001"/>
+  <testcase name="testCapacity" classname="TestCases" time="0.0"/>
+  <testcase name="testFacility" classname="TestCases" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
