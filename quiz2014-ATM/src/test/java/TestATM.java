@@ -8,7 +8,7 @@ public class TestATM {
         Card c = new Card(12345);
         assertEquals(12345, c.getNumber());
     }
-/*
+
     @Test
     public void testAccount() {
         Account a = new Account("Manuel", 500.00);
@@ -60,5 +60,5 @@ public class TestATM {
     public void testSessionEquals() {
         Session s = new Session(new ATM(987, "Porto", "CGD"));
         assertEquals(true, s.equals(new Session(new ATM(987, "Porto", "CGD"))));
-    }*/
+    }
 }
