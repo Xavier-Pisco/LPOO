@@ -7,7 +7,7 @@ public class FileSystemTest extends TestCase {
         FileSystem fs = new FileSystem("FAT32");
         assertEquals("FAT32", fs.getType());
     }
-/*
+
     public void testFileSystemRoot() {
         FileSystem fs = new FileSystem("FAT32");
         Folder root = fs.getRoot();
@@ -148,5 +148,5 @@ public class FileSystemTest extends TestCase {
         // caso normal, só para verificar que recuperou bem da excepção anterior
         cron.move(root, "cron");
         assertEquals("/cron/crontab2", crontab.getPath());
-    }*/
+    }
 }
