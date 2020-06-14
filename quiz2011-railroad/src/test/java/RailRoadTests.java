@@ -12,7 +12,7 @@ public class RailRoadTests  {
         Comboio c2 = new Comboio("Intercidades");
         assertEquals("Intercidades", c2.getNome());
     }
-/*
+
     @Test
     public void testSubclassesComboio() {
         Comboio tgv = new TGV("Speeder");
@@ -183,5 +183,5 @@ public class RailRoadTests  {
         c1.setServicoABordo(new ServicoPrioritario());
         assertEquals("Servico prioritario.",c1.getDescricaoServico());
     }
-*/
+
 }
